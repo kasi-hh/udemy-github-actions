@@ -19,7 +19,7 @@ jobs:
     needs: test
     runs-on: ubuntu-latest
     outputs:
-      script-file: ${{ steps.publish.outputs.scriptfile
+      script-file: ${{ steps.publish.outputs.scriptfile }}
     steps:
       - name: Get code
         uses: actions/checkout@v3
